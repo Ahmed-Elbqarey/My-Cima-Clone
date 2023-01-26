@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: white;
+}
+body {
+  background-color: #0c0f21;
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: #eee;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #1f2b86c8;
+  border-radius: 5px;
+}
+header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5367ff;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  font-family: serif;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-right: 15px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  float: right;
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+li ul {
+  display: none;
+  width: 250px;
+  height: 200px;
+  background-color: #373b59;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: black;
+}
+header img {
+  width: 30px;
+  border-radius: 50%;
+}
+.mainpage {
+  display: flex;
+}
+.main {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.main span {
+  font-size: 20px;
+  padding: 22px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: 0.4s ease;
+}
+.main span:hover{
+
+  background-color: rgba(255, 255, 255, 0.128);
+}
+.main input {
+  width: 90%;
+  height: 50px;
+  background-color: #373b59;
+  outline: none;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+.content {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content div {
+  width: 23%;
+  margin-left: 10px;
+  text-align: center;
+  transition: 0.7s ease;
+}
+.content img{
+  border-radius: 5px;
+}
+.content div:hover{
+  transform: scale(1.1);
+}
+
+.content span {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
